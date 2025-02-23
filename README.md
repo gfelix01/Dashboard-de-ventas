@@ -45,13 +45,17 @@ Una vez que la aplicación esté en ejecución, podrás navegar a la URL local p
 A continuación, algunas vistas de la aplicación:
 
 ### 🏠 Página Principal
-![Página Principal](/images/Inicio.png)
+![Página Principal](/my-app/public/images/Inicio.png)
 
 ### 📊 Gráficos de Ventas
-![Gráficos de Ventas](/images/ventas.png)
+![Gráficos de Ventas](/my-app/public/images/ventas.png)
 
 ### 📋 Tabla de Inventario
-![Tabla de Inventario](/images/Inventario.png)
+![Tabla de Inventario](/my-app/public/images/inventario.png)
+
+### 📋 Tabla de Reportes
+![Tabla de Inventario](/my-app/public/images/Reportes.png)
+
 
 ## 🤝 Contribución
 ¡Las contribuciones son bienvenidas! Si deseas mejorar el proyecto, sigue estos pasos:
