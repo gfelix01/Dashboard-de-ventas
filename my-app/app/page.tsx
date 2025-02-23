@@ -2,10 +2,6 @@ import DashboardSummary from "@/components/DashboardSummary"
 import RecentSales from "@/components/RecentSales"
 import LowStockAlert from "@/components/LowStockAlert"
 
-interface LogoProps {
-  className?: string;
-}
-
 
 
 export default function Home() {
