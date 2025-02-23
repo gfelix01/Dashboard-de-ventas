@@ -33,13 +33,14 @@ Una vez que la aplicación esté en funcionamiento, abre tu navegador web y nave
 A continuación se presentan algunas capturas de pantalla del Dashboard de Ventas:
 
 ### Página Principal
-![Página Principal](ruta/a/tu/imagen1.png)
+![Página Principal](/images/Inicio.png)
 
 ### Gráficos de Ventas
-![Gráficos de Ventas](ruta/a/tu/imagen2.png)
+![Gráficos de Ventas](/images/ventas.png)
 
-### Tabla de Datos
-![Tabla de Datos](ruta/a/tu/imagen3.png)
+### Tabla de Inventario
+![Tabla de Datos](/images/Invetario.png)
+
 
 ## Contribución
 Si deseas contribuir a este proyecto, sigue estos pasos:
