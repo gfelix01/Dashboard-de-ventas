@@ -21,15 +21,15 @@ export default function RootLayout({
     <html lang="es">
       <body className={`${inter.className} bg-gray-100`}>
         <div className="flex flex-col h-screen">
-          <header className="bg-white shadow p-4 flex items-center">
+          <header className="bg-header-bg shadow p-4 flex items-center">
             <Logo />
             <h1 className="ml-4 text-xl font-bold">Sistema de Facturación & Control de Inventario</h1>
           </header>
           <div className="flex flex-1">
-            <Sidebar />
+            <Sidebar className="sidebar" />
             <main className="flex-1 overflow-y-auto p-8">{children}</main>
           </div>
-          <footer className="bg-white shadow p-4 text-center">
+          <footer className="bg-footer-bg shadow p-4 text-center">
             © 2023 Sistema de Facturación & Control de Inventario
           </footer>
         </div>

@@ -8,18 +8,26 @@ const navItems = [
   { href: "/reportes", icon: BarChart2, label: "Reportes" },
 ];
 
-export default function Sidebar() {
+interface SidebarProps {
+  className?: string;
+}
+
+const Sidebar: React.FC<SidebarProps> = ({ className }) => {
   return (
-    <aside className="bg-gray-800 text-white w-64 min-h-screen p-4">
-      <nav className="space-y-4">
-        {navItems.map(({ href, icon: Icon, label }) => (
-          <Link key={href} href={href} className="flex items-center space-x-2 p-2 hover:bg-gray-700 rounded">
-            <Icon className="h-5 w-5" />
-            <span>{label}</span>
-          </Link>
-        ))}
-      </nav>
-    </aside>
+    <div className={className}>
+      <aside className="bg-gray-800 text-white w-64 min-h-screen p-4">
+        <nav className="space-y-4">
+          {navItems.map(({ href, icon: Icon, label }) => (
+            <Link key={href} href={href} className="flex items-center space-x-2 p-2 hover:bg-gray-700 rounded">
+              <Icon className="h-5 w-5" />
+              <span>{label}</span>
+            </Link>
+          ))}
+        </nav>
+      </aside>
+    </div>
   );
 }
+
+export default Sidebar;
 

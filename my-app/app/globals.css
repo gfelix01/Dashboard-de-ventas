@@ -2,11 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer components {
+  .bg-header-bg {
+    background-color: hsl(var(--header-bg));
+  }
+
+  .bg-footer-bg {
+    background-color: hsl(var(--footer-bg));
+  }
+
+  .bg-sidebar-bg {
+    background-color: hsl(var(--sidebar-bg));
   }
 }
+
 
 @layer base {
   :root {
@@ -35,6 +44,9 @@
     --chart-4: 43 100% 50%;
     --chart-5: 27 100% 50%;
     --radius: 0.5rem;
+    --header-bg: 220 90% 96%;
+    --footer-bg: 220 90% 96%;
+    --sidebar-bg: 220 90% 98%;
   }
 
   .dark {
@@ -62,6 +74,9 @@
     --chart-3: 197 100% 50%;
     --chart-4: 43 100% 50%;
     --chart-5: 27 100% 50%;
+    --header-bg: 220 90% 10%;
+    --footer-bg: 220 90% 10%;
+    --sidebar-bg: 220 90% 15%;
   }
 }
 
@@ -72,5 +87,17 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  header {
+    @apply bg-header-bg;
+  }
+
+  footer {
+    @apply bg-footer-bg;
+  }
+
+  .sidebar {
+    @apply bg-sidebar-bg;
   }
 }
